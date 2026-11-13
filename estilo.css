@@ -36,5 +36,5 @@ header .brand-symbol img{width:2.95rem;border-radius:50%}
 @media(min-width:701px){
 .hero.hero-carvalho{grid-template-columns:minmax(0,44fr) minmax(0,49fr);padding-right:7%}
 .hero.hero-carvalho figure{width:calc(100% - 1rem);max-width:1100px;margin:.75rem 0;justify-self:start}
-.hero.hero-carvalho figure img{aspect-ratio:1.86;object-fit:cover;object-position:center 70%}
+.hero.hero-carvalho figure img{aspect-ratio:1.7;object-fit:cover;object-position:center}
 }
