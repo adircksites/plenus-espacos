@@ -26,9 +26,9 @@ header .brand-symbol img{width:2.95rem;border-radius:50%}
 .hero img[src='sofa-plenus.jpg']{object-position:center 57%}
 
 .hero-carvalho{align-items:center}
-@media(min-width:701px){.hero.hero-carvalho{grid-template-columns:minmax(0,3fr) minmax(0,2fr)}}
+@media(min-width:701px){.hero.hero-carvalho{grid-template-columns:minmax(0, 57fr) minmax(0, 43fr)}}
 .hero-carvalho .hero-text{padding-block:clamp(2rem,4vw,4.5rem)}
 .hero-carvalho h1{font-size:clamp(2.65rem,4.3vw,5rem);text-wrap:balance}
-.hero-carvalho figure{display:block;width:min(100%,32rem);justify-self:center;min-width:0;padding:clamp(1rem,2.5vw,2.5rem);background:transparent}
+.hero-carvalho figure{display:block;width:min(100%,34rem);justify-self:center;min-width:0;padding:clamp(1rem,2vw,2rem);background:transparent}
 .hero-carvalho figure img{width:100%;height:auto;min-height:0;max-height:none;aspect-ratio:3/2;object-fit:contain;border-radius:18px}
 .hero-carvalho figcaption{background:transparent;color:var(--ink);font-size:.92rem;padding:.65rem 0 0}
