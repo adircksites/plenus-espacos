@@ -19,3 +19,5 @@ header .brand-symbol img{width:2.95rem;border-radius:50%}
 .story img{aspect-ratio:3/2;height:auto}
 .story>div{padding:clamp(1.1rem,2.6vw,2rem)}
 .story a{font-weight:700;color:#394f43}
+
+.article-offer{margin:2.5rem 0;padding:clamp(1.3rem,4vw,2.7rem);background:var(--cream);border-left:4px solid var(--olive);border-radius:4px}.reading .article-offer h2{margin:.45rem 0 1rem}.article-offer .actions{margin-top:1.45rem}.article-offer .actions>a:not(.button){color:var(--olive);font-weight:700}

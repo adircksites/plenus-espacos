@@ -64,6 +64,7 @@ if (project) {
   let downloadUrl;
   if (Object.hasOwn(productNames, product)) field.espaco.value = productNames[product];
   else if (Object.hasOwn(choices, room)) field.espaco.value = room;
+  if (product === 'poltrona' && parameters.get('origem') === 'assentos') field.espaco.value = 'Sofá, cadeira ou poltrona planejada';
   if (parameters.get('origem') === 'diagnostico') {
     try {
       const saved = JSON.parse(sessionStorage.getItem('plenus-diagnostico'));
